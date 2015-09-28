@@ -1,0 +1,15 @@
+Maha Manzoor (1445142)
+lab task 3
+
+
+
+public abstract class Shape {
+		
+	public abstract double area();
+		public abstract double perimeter();
+
+
+	      public Shape(String shapename)   {
+	            System.out.println(shapename);
+	      }
+      }
