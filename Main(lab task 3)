@@ -1,0 +1,18 @@
+Maha Manzoor (1445142)
+lab task 3
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Rectangle objrectangle = new Rectangle(4,3);
+	
+			Square objsquare = new Square(4);
+				
+				Triangle objtriangle = new Triangle(4,3);
+				
+			    	Circle objcircle = new Circle(4);
+			}
+	}
