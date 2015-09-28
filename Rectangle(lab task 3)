@@ -1,0 +1,21 @@
+Maha Manzoor (1445142)
+lab task 3
+
+
+public class Rectangle extends Shape{
+	
+public int height,length;
+	  public Rectangle (int h,int l){
+		 super("Rectangle");
+		    height=h;length=l;
+	}
+public Rectangle(String name){
+		super(name);
+	}
+public double area(){
+		return length*height;
+	}
+public double perimeter(){
+		return 2*(length+height);
+	}
+}
