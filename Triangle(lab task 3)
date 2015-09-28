@@ -1,0 +1,21 @@
+Maha Manzoor (1445142)
+lab task 3
+
+
+
+
+public class Triangle extends Shape {
+		
+	int height,base;
+	
+	public Triangle(int h,int b){
+		super("Triangle");
+		   height=h;base=b;
+	}
+	  public double area(){
+		 return 0.5*base*height;
+	}
+	  public double perimeter(){
+		 return height+base;
+	}
+}
