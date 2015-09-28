@@ -1,0 +1,13 @@
+Maha Manzoor (1445142)
+lab task 3
+
+
+
+public class Square extends Rectangle{
+		
+	public Square(int side){
+			
+		super("Square");
+		height=length=side;
+	}
+}
