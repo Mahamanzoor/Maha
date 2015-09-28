@@ -1,0 +1,23 @@
+Maha Manzoor (1445142)
+lab task 2
+
+
+
+public class Human {
+
+	public static void main(String[] args) {
+
+
+		Person object1 = new Person ();
+		
+		object1.name = "abcd";
+		object1.height = "5.2";
+		object1.age = "21";
+
+	    object1.speak();
+	    object1.listen();
+	    object1.eat();
+	    object1.run();
+	    object1.walk();
+	}
+}
