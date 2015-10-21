@@ -1,0 +1,45 @@
+
+	public class mainforlist {
+
+		public static void main(String[] args) {
+		
+			mylinklist MyList = new mylinklist();
+			
+			MyList.add(12);
+			
+			nodes list = new nodes();
+			nodes mynode = new nodes();
+			nodes node1 = new nodes();
+			nodes node2= new nodes();
+			
+			list.num=4;
+			list.self=list;
+			list.next=mynode;
+			list.previous=null;
+			
+			
+			
+			mynode.num=6;
+			mynode.self=mynode;
+			mynode.next=node1;
+			mynode.previous=list;
+			
+			
+			node1.num=5;
+			node1.self=node1;
+			node1.next=node2;
+			node1.previous=mynode;
+			
+			node2.num=5;
+			node2.self=node2;
+			node2.next=null;
+			node2.previous=mynode;
+			
+			while (list.next!=null)
+			{
+				System.out.println(list.num);
+				list=list.next;
+			}
+		}
+
+	}
