@@ -1,0 +1,7 @@
+package sorting;
+
+public class Linknode {
+	int value;
+	Linknode add;
+
+}
