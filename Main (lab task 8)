@@ -1,0 +1,12 @@
+package sorting;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Node object = new Node();
+		object.add(2);
+		object.add(3);
+		object.shownodes();
+		
+	}
+}
