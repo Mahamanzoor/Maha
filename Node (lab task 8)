@@ -1,0 +1,37 @@
+package sorting;
+
+public class Node {
+	public Linknode list;
+ 
+	public void add (int value){
+		Linknode temp;
+		 temp= list;
+		if (list==null){
+			list= new Linknode();
+			list.value=value;	
+		}
+		else{
+			temp=list;
+			list= new Linknode();
+			list.value=value;
+			temp.add=list;
+			list=temp;
+		}
+
+		}
+	
+	public void shownodes(){
+		Linknode temp= list;
+		
+		while (temp.add!=null){
+			System.out.println(temp.value);
+			temp=temp.add;
+			
+		}
+		int m=4;
+		if (temp.value==m){
+           System.out.println("search value");
+           temp= temp.add;
+		}
+	}
+}
